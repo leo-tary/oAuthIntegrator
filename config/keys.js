@@ -2,7 +2,7 @@
 /**
  * 
  *  We could have also done:-
- *  const express = require('express');     // this'll only pick the required module from memory instead of loading it from scratch
+ *  const express = require('express');     // this'll only pick the required module from memory (NODE_MODULES_CACHE=true) instead of loading it from scratch
  *  const app = express();
  * 
  *  const environment = app.get('env)       // this'll return development or production if deployed on production servers
